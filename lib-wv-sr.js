@@ -195,13 +195,13 @@ function jsBridgeSendAssets(withSerializationId = false) {
   }
   const formattedAssets = [];
   formattedAssets.push({
-    assetId: "https://tupeuxpastest.csq.io/mobile/spinner.png",
-    assetBasePath: "https://tupeuxpastest.csq.io/mobile/web-view-sr.html",
+    assetId: "https://damir-mazar-cs.github.io/mobile/spinner.png",
+    assetBasePath: "https://damir-mazar-cs.github.io/web-view-sr.html",
     assetRawPath: "./spinner.png"
   });
   formattedAssets.push({
-    assetId: "https://tupeuxpastest.csq.io/mobile/pic.png",
-    assetBasePath: "https://tupeuxpastest.csq.io/mobile/web-view-sr.html",
+    assetId: "https://damir-mazar-cs.github.io/mobile/pic.png",
+    assetBasePath: "https://damir-mazar-cs.github.io/mobile/web-view-sr.html",
     assetRawPath: "./pic.png"
   });
   window.CSJavascriptBridge.sendAssets(
@@ -218,8 +218,8 @@ function jsBridgeSendAssetsWithLocalAssets(withSerializationId = false) {
   }
   const formattedAssets = [];
   formattedAssets.push({
-    assetId: "https://tupeuxpastest.csq.io/mobile/spinner.png",
-    assetBasePath: "https://tupeuxpastest.csq.io/mobile/web-view-sr.html",
+    assetId: "https://damir-mazar-cs.github.io/mobile/spinner.png",
+    assetBasePath: "https://damir-mazar-cs.github.io/mobile/web-view-sr.html",
     assetRawPath: "./spinner.png",
     retrievedAssetContent: {
       mimeType: "image/png",
@@ -228,8 +228,8 @@ function jsBridgeSendAssetsWithLocalAssets(withSerializationId = false) {
 
   });
   formattedAssets.push({
-    assetId: "https://tupeuxpastest.csq.io/mobile/pic.png",
-    assetBasePath: "https://tupeuxpastest.csq.io/mobile/web-view-sr.html",
+    assetId: "https://damir-mazar-cs.github.io/mobile/pic.png",
+    assetBasePath: "https://damir-mazar-cs.github.io/mobile/web-view-sr.html",
     assetRawPath: "./pic.png",
     retrievedAssetContent: {
       mimeType: "image/png",
