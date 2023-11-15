@@ -1,0 +1,44 @@
+
+#spinner {
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+    width: 200px;
+}
+
+#spinner.active {
+    background-color: red;
+}
+
+#line {
+    width: 0px;
+    height: 200px;
+    border-left: 5px solid red;
+}
+
+#line:hover {
+    border-left: 5px solid green;
+}
+
+#scrollable {
+    height: 200px;
+    overflow: auto;
+}
+
+#sun-rise {
+    background-image: linear-gradient(darkSlateBlue, yellow);
+    height: 1000px;
+}
+
+#mini-text {
+    font-size: 3px;
+}
+
+#gesturesSpace {
+    height: 4000px;
+}
